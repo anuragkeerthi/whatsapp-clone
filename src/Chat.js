@@ -86,7 +86,7 @@ function Chat() {
                 <InsertEmoticonIcon />
                 <form>
                     <input value={input} onChange={e => setInput(e.target.value)} placeholder="Type a message" type="text" />
-                    <button onClick={sendMessage} type="submit"> Send a Message</button>
+                    <button onClick={sendMessage} type="submit">Send</button>
                 </form>
                 <MicIcon />
             </div>

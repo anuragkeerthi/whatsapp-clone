@@ -91,7 +91,16 @@
 }
 
 .chat__footer > form > button {
-    display: none;
+    border-radius: 15px;
+    border: 0.2px;
+    text-decoration: none;
+    color: gray;
+    border: 1px solid darkgray;
+    /* display: none; */
+    
+}
+.chat__footer > form > button:hover {
+    color: green;
 }
 
 .chat__footer > .MuiSvgIcon-root {
