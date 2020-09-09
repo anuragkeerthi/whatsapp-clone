@@ -28,6 +28,7 @@ function Login() {
                 />
                 <div className="login__text">
                     <h1>Sign in to WhatsApp</h1>
+                    <h4>Whatsapp Clone by Anurag Keerthi</h4>
                 </div>
                 <Button onClick={signIn}>
                     Sign In with Google
